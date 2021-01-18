@@ -1,6 +1,4 @@
 from django.shortcuts import render,HttpResponse,redirect
 
 def index(request):
-    return HttpResponse("Hola Mundo :)")
-
-
+    return HttpResponse("Hola Mundo! :)")
